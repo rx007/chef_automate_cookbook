@@ -4,7 +4,9 @@ maintainer_email 'rx007@me.com'
 license 'Apache 2.0'
 description 'Installs/Configures chef_automate_cookbook'
 long_description 'Installs/Configures chef_automate_cookbook'
-version '0.8.0'
+version '1.4.0'
+
+depends 'chef-vault'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
