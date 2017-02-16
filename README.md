@@ -39,7 +39,7 @@ You can install this cookbook using Berkshelf.
 
 
 
-#### Install using private Chef Supermarket
+#### Install using Chef Supermarket
 
 
 

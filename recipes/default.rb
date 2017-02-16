@@ -62,3 +62,9 @@ end
 execute 'automate-ctl preflight-check' do
   command '/usr/bin/automate-ctl preflight-check'
 end
+
+execute 'automate-ctl setup' do
+  command "/usr/bin/automate-ctl setup --license /root/delivery.license --key /root/delivery.pem --server-url #{automate_defaults['chef_url']} --fqdn #{automate_defaults['automate_url']} "
+  not_if { ::File.exist?('/etc/delivery/delivery.rb') }
+  action :run
+end

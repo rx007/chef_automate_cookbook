@@ -4,7 +4,7 @@ maintainer_email 'rx007@me.com'
 license 'Apache 2.0'
 description 'Installs/Configures chef_automate_cookbook'
 long_description 'Installs/Configures chef_automate_cookbook'
-version '1.4.0'
+version '1.6.0'
 
 depends 'chef-vault'
 
